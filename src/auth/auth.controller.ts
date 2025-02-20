@@ -10,6 +10,7 @@ export class AuthController {
     @HttpCode(HttpStatus.OK)
     @UseGuards(LocalAuthGuard)
     login(){
+        return "Login feito"
         //return this.authService.login();
     }
 }
